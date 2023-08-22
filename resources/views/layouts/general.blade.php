@@ -26,7 +26,7 @@
         <nav>
             <ul class="flex">
                 <li class="mx-3">
-                    <a href="" class="text-white text-lg ">About Me</a>
+                    <a href="{{ route('about-me') }}" class="text-white text-lg ">About Me</a>
                 </li>
                 @if (Auth::user())
                 <li class="mx-3">

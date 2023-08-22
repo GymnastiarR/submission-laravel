@@ -49,7 +49,7 @@ Route::get('about-me', function (): View {
         'categories' => Category::all(),
         'tags' => Tag::all()
     ]);
-});
+})->name('about-me');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

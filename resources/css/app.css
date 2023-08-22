@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@tailwind base;
+.ck-editor__editable[role="textbox"] {
+    /* editing area */
+    min-height: 70vh;
+    border: none;
+    margin-bottom: 20px;
+}
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+@tailwind components;
+@tailwind utilities;
